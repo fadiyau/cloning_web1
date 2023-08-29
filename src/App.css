@@ -1,0 +1,175 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.coba {
+  padding-left: 120px;
+  padding-top: 0;
+}
+
+.login {
+  margin-right: 130px;
+}
+
+.ikon {
+  margin-right: 180px;
+}
+
+.home {
+  border-radius: 10px;
+  width: 55px;
+  padding-top: 2px;
+  /* padding-bottom: 15px; */
+}
+
+.ls {
+  border-radius: 20px;
+  height: 30px;
+  padding-top: 1px;
+  
+}
+
+.btn1 {
+  border-radius: 8px;
+}
+
+.btn2 {
+  border-radius: 10px;
+}
+
+.jrm {
+  border-radius: 25px;
+  margin-right: 25px;
+}
+
+.msk {
+  margin-right: 150px;
+}
+
+.percent {
+  border-radius: 10px;
+  padding-bottom: 4px;
+  padding-right: 2px;
+  padding-left: 1px;
+  margin-right: 17px;
+}
+
+.jdl {
+  padding-top: 110px;
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+.imgbljr {
+  padding-top: 110px;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.kps {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.vid1 {
+  border-radius: 50px;
+  margin-bottom: 35px;
+}
+
+.tx{
+  justify-content: center;
+  align-items: center;
+}
+
+.kmd {
+  width: 550px;
+  align-items: center;
+  justify-content: center;
+}
+
+.crd1{
+  width: 700px;
+  height: 220px;
+  padding: 60px 35px 42px 30px ;
+  /* padding-top: 7px;
+  padding-left: 30px;
+  padding-right: 30px; */
+  border-radius: 30px;
+}
+
+.zns {
+  padding: 100px 200px 25px 117px;
+  font-size: 23px;
+}
+
+.ftr:hover {
+  text-decoration: underline;
+}
+
+.guru{
+  padding-left: 90px;
+}
+
+.content{
+  margin-left: 120px;
+}
+
+.pelajaran{
+  margin-left: 70px;
+}
+
+.mau{
+  padding-left: 500px ;
+  padding-top: 70px;
+}
+
+.ok{
+  margin-top: 70px;
+  margin-left: 350px;
+}
+
+@media (min-width: 768px) {
+  .h-md-100 { height: 100vh; }
+}
+.btn-round { border-radius: 30px; }
+.bg-indigo { background: whitesmoke; }
+.text-cyan { color: #35bdff; }
