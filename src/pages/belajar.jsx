@@ -194,148 +194,164 @@ function Content() {
             </div>
             {/* 4 gambar */}
             <div className=" mb-5">
-              <div className="">
-                <a href="#" className="pe-3">
-                  <img src="src/assets/zenutbk.png" width="170px" height="120px" style={{borderRadius:"27px"}}/>
+              <div className="px-2">
+                <a href="#" className="gatau">
+                  <img className="z-1 position-absolute" src="src/assets/zenutbk.png" width="170px" height="120px" style={{borderRadius:"27px"}}/>
+                  <i className="z-2 position-absolute bi bi-1-circle-fill text-warning" style={{fontSize:'30px', paddingTop:'10px', paddingLeft:'12px'}}></i>
+                  <p className="z-2 position-absolute text-light fw-bold" style={{fontSize:'15px', paddingTop:'75px', paddingLeft:'10px'}}>Materi belajar UTBK</p>
                 </a>
-                <a href="#" className="pe-3">
-                  <img src="src/assets/zenutbk.png" width="170px" height="120px" style={{borderRadius:"27px"}}/>
+                <a href="#" className="gatau">
+                  <img className="z-1 position-absolute" src="src/assets/zenutbk.png" width="170px" height="120px" style={{borderRadius:"27px"}}/>
+                  <i className="z-2 position-absolute bi bi-2-circle-fill text-warning" style={{fontSize:'30px', paddingTop:'10px', paddingLeft:'12px'}}></i>
+                  <p className="z-2 position-absolute text-light fw-bold" style={{fontSize:'15px', paddingTop:'75px', paddingLeft:'195px'}}>Materi belajar UTBK</p>
                 </a>
-                <a href="#" className="pe-3">
-                  <img src="src/assets/zenutbk.png" width="170px" height="120px" style={{borderRadius:"27px"}}/>
+                <a href="#" className="gatau">
+                  <img className="z-1 position-absolute" src="src/assets/zenutbk.png" width="170px" height="120px" style={{borderRadius:"27px"}}/>
+                  <i className="z-2 position-absolute bi bi-3-circle-fill text-warning" style={{fontSize:'30px', paddingTop:'10px', paddingLeft:'12px'}}></i>
+                  <p className="z-2 position-absolute text-light fw-bold" style={{fontSize:'15px', paddingTop:'75px', paddingLeft:'380px'}}>Materi belajar UTBK</p>
                 </a>
-                <a href="#" className="pe-3">
-                  <img src="src/assets/zenutbk.png" width="170px" height="120px" style={{borderRadius:"27px"}}/>
+                <a href="#" className="gatau">
+                  <img className="z-1 position-absolute" src="src/assets/zenutbk.png" width="170px" height="120px" style={{borderRadius:"27px"}}/>
+                  <i className="z-2 position-absolute bi bi-4-circle-fill text-warning" style={{fontSize:'30px', paddingTop:'10px', paddingLeft:'12px'}}></i>
+                  <p className="z-2 position-absolute text-light fw-bold" style={{fontSize:'15px', paddingTop:'75px', paddingLeft:'565px'}}>Materi belajar UTBK</p>              
                 </a>
               </div>
             </div>
           </div>
-          {/* AKM SMA */}         
-          <div>
-            <p className="fw-bold" style={{fontStyle:"", fontSize:"25px", color: "#916DB3"}}>
-              AKM SMA
-            </p>
-          </div>          
-          <div className=" mb-5">                       
-              <a href="#" className="pe-3">
-                <img src="src/assets/zenutbk.png" width="170px" height="120px" style={{borderRadius:"27px"}}/>
-              </a>
-              <a href="#" className="pe-3">
-                <img src="src/assets/zenutbk.png" width="170px" height="120px" style={{borderRadius:"27px"}}/>
-              </a>           
+          {/* AKM SMA */}
+          <div className="mb-5">      
+            <div style={{marginTop:'100px'}}>
+              <p className="fw-bold" style={{fontStyle:"", fontSize:"25px", color: "#916DB3"}}>
+                AKM SMA
+              </p>
+            </div>          
+            <div className="d-flex">                       
+                <a href="#" className="pe-3 px-2">
+                  <img src="src/assets/fx.png" width="150px" height="120px" style={{borderRadius:"27px"}}/>
+                </a>
+                <a href="#" className="pe-3">
+                  <img src="src/assets/essay.png" width="150px" height="120px" style={{borderRadius:"27px"}}/>
+                </a>           
+            </div>     
+            <div className="d-flex">
+                <p className="materi">Materi Numerasi</p>
+                <p className="materi2">Materi Literasi</p>
+            </div>
           </div>     
           {/* Pelajaran Sekolah */}
           <div>
-            <p className="fw-bold" style={{fontStyle:"", fontSize:"25px", color: "#916DB3"}}>
-              Pelajaran Sekolah
-            </p>
-          </div>
-          <div className="pelajaran">
-            <div className="mb-4 ">
-              <div className="row">
-                <div className="col">
-                  <a className="" href="#">
-                    <img className="rounded-circle bi bi-pencil" src="src/assets/zenutbk.png" width="125px" height="120px"/>
-                  </a> 
-                  <p className="px-3 ">
-                    Matematika Wajib
-                  </p>
-                </div>
-                <div className="col">
-                  <a href="#">
-                    <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
-                  </a>            
-                  <p className="px-3">
-                    Matematika Wajib
-                  </p>
-                </div>
-                <div className="col">
-                  <a href="#">
-                    <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
-                  </a> 
-                  <p className="px-3">
-                    Matematika Wajib
-                  </p>
-                </div>
-                <div className="col">
-                  <a href="#">
-                    <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
-                  </a> 
-                  <p className="px-3">
-                    Matematika Wajib
-                  </p>
+            <div>
+              <p className="fw-bold" style={{fontStyle:"", fontSize:"25px", color: "#916DB3"}}>
+                Pelajaran Sekolah
+              </p>
+            </div>
+            <div className="pelajaran">
+              <div className="mb-4 ">
+                <div className="row">
+                  <div className="col">
+                    <a className="" href="#">
+                      <img className="rounded-circle bi bi-pencil" src="src/assets/zenutbk.png" width="125px" height="120px"/>
+                    </a> 
+                    <p>
+                      Matematika Wajib
+                    </p>
+                  </div>
+                  <div className="col">
+                    <a href="#">
+                      <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
+                    </a>            
+                    <p>
+                      Matematika Wajib
+                    </p>
+                  </div>
+                  <div className="col">
+                    <a href="#">
+                      <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
+                    </a> 
+                    <p>
+                      Matematika Wajib
+                    </p>
+                  </div>
+                  <div className="col">
+                    <a href="#">
+                      <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
+                    </a> 
+                    <p>
+                      Matematika Wajib
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="mb-4">
-              <div className="row">
-                <div className="col">
-                  <a href="#">
-                    <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
-                  </a> 
-                  <p className="px-3">
-                    Matematika Wajib
-                  </p>
-                </div>
-                <div className="col">
-                  <a href="#">
-                    <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
-                  </a>            
-                  <p className="px-3">
-                    Matematika Wajib
-                  </p>
-                </div>
-                <div className="col">
-                  <a href="#">
-                    <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
-                  </a> 
-                  <p className="px-3">
-                    Matematika Wajib
-                  </p>
-                </div>
-                <div className="col">
-                  <a href="#" >
-                    <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
-                  </a> 
-                  <p className="px-3">
-                    Matematika Wajib
-                  </p>
+              <div className="mb-4">
+                <div className="row">
+                  <div className="col">
+                    <a href="#">
+                      <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
+                    </a> 
+                    <p>
+                      Matematika Wajib
+                    </p>
+                  </div>
+                  <div className="col">
+                    <a href="#">
+                      <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
+                    </a>            
+                    <p>
+                      Matematika Wajib
+                    </p>
+                  </div>
+                  <div className="col">
+                    <a href="#">
+                      <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
+                    </a> 
+                    <p>
+                      Matematika Wajib
+                    </p>
+                  </div>
+                  <div className="col">
+                    <a href="#" >
+                      <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
+                    </a> 
+                    <p>
+                      Matematika Wajib
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="mb-5">
-              <div className="row">
-                <div className="col">
-                  <a href="#">
-                    <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
-                  </a> 
-                  <p className="px-3">
-                    Matematika Wajib
-                  </p>
-                </div>
-                <div className="col">
-                  <a href="#" >
-                    <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
-                  </a>            
-                  <p className="px-3">
-                    Matematika Wajib
-                  </p>
-                </div>
-                <div className="col">
-                  <a href="#">
-                    <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
-                  </a> 
-                  <p className="px-3">
-                    Matematika Wajib
-                  </p>
-                </div>
-                <div className="col">
-                  <a href="#" >
-                    <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
-                  </a> 
-                  <p className="px-3">
-                    Matematika Wajib
-                  </p>
+              <div className="mb-5">
+                <div className="row">
+                  <div className="col">
+                    <a href="#">
+                      <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
+                    </a> 
+                    <p>
+                      Matematika Wajib
+                    </p>
+                  </div>
+                  <div className="col">
+                    <a href="#" >
+                      <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
+                    </a>            
+                    <p>
+                      Matematika Wajib
+                    </p>
+                  </div>
+                  <div className="col">
+                    <a href="#">
+                      <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
+                    </a> 
+                    <p>
+                      Matematika Wajib
+                    </p>
+                  </div>
+                  <div className="col">
+                    <a href="#" >
+                      <img className="rounded-circle" src="src/assets/zenutbk.png" width="125px" height="120px" style={{borderRadius:"27px"}}/>
+                    </a> 
+                    <p>
+                      Matematika Wajib
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -351,7 +367,7 @@ function Content() {
             </div>
             {/* 3 gambar */}
             <div className=" mb-5">
-              <div className="">
+              <div className="px-2">
                   <img src="src/assets/zenutbk.png" width="160px" height="120px" style={{borderRadius:"27px"}}/>
                 <a href="#" className="pe-3">       
                 </a>
@@ -370,7 +386,7 @@ function Content() {
                   Pelajaran Sekolah
             </p>
           </div>
-          <div className="pb-5">
+          <div className="pb-5 px-1">
             <div className="container">
                 <div className="row">
                   {/* Card 1 */}

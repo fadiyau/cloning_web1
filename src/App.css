@@ -173,3 +173,19 @@
 .btn-round { border-radius: 30px; }
 .bg-indigo { background: whitesmoke; }
 .text-cyan { color: #35bdff; }
+
+.gatau{
+  padding-right: 185px;
+}
+
+.materi{
+  padding-top: 7px;
+  padding-left: 30px;
+  font-family: 'monospace';
+}
+
+.materi2{
+  padding-top: 7px;
+  padding-left: 65px;
+  font-family: 'monospace';
+}

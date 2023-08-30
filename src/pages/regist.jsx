@@ -57,6 +57,9 @@ function Main() {
                   <h4 className="d-flex justify-content-center fw-bold" style={{color:'grey'}}>
                     Lolos UTBK? Bisa!
                   </h4>
+                  <p className="d-flex justify-content-center">
+                    Ikuti jejas ratusan ribu alumni yang berhasil tembus UTBK bareng Zenius.
+                  </p>
                 </div>
               </div>
             </div>
